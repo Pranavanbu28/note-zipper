@@ -1,0 +1,23 @@
+.mainback{
+    /* background-color: violet; */
+    min-height: 93vh;
+    display: flex;
+    padding: 30px 0;
+}
+.page{
+    /* background-color: blue; */
+    width : 100vw
+}
+.heading{
+    font-size: 3.2rem;
+    padding: 5px 10px;
+}
+hr{
+    padding-bottom: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .heading{
+        font-size: 2rem;
+    }
+    
+}

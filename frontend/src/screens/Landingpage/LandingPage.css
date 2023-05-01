@@ -1,0 +1,49 @@
+.main{
+    min-height: 93vh;
+    background-image: url("./bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-blend-mode: darken; */
+    /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fullHolder{
+    max-width: 50vw;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+.titleAndIntro h1{
+    color:white;
+    font-size: 60px;
+
+
+}
+.titleAndIntro p{
+    color:rgb(252, 176, 227);
+    font-size: 20px;
+    padding-top: 5px;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+}
+.buttonContainer div{
+    margin-top: 25px;
+    padding: 20px;
+}
+
+@media only screen and (max-width:700px) {
+    .titleAndIntro h1{
+        padding-bottom: 20px;
+        font-size: 40px;
+    }
+    .titleAndIntro p{
+        font-size: 15px;
+    }
+}
